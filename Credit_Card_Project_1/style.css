@@ -1,0 +1,565 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,900;1,200&family=Oswald:wght@200;700&family=Poppins:wght@100;200;300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    background-color:#151515;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+    padding: 0  7.5%;
+}
+
+.navbar ul {
+     display: flex; 
+     justify-content:center;
+}
+
+.navbar ul li {
+    position: relative;
+    right: 35%;
+    top: 9px;
+    list-style: none;
+    color: #fff;
+    margin-left: 51px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    font-weight: 350;
+}
+
+.corner {
+    color: #fff;
+    font-family:'Montserrat';
+}
+
+.corner .pink {
+    position: relative;
+    left: 20px;
+    top: 5px;
+    width: 39px;
+}
+
+.corner .down {
+    font-size: 14px;
+    padding-right: 15px;
+}
+
+.corner .color {
+    position: relative;
+    right: 9px;
+    font-size: 15px;
+    z-index: 2;
+}
+
+.corner i {
+    position: relative;
+    right: 9px;
+}
+
+
+.container {
+    width: 100%;
+}
+
+.container .left-section {
+    width: 70%;
+    margin-top: 112px;
+    padding-left: 78px;
+}
+
+ .container .text label {
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 87px;
+    line-height: 115px;
+    
+}
+
+.container .text p {
+    margin-top: 24px;
+    color: #b9b9b9;
+    font-size: 21px;
+    font-family: sans-serif;
+    line-height: 33px;
+}
+ 
+.container .text span {
+    color: #f637ec;
+    font-weight: 600;
+} 
+
+.container .button {
+    margin-top: 68px;
+}
+
+.container .button span {
+    position: relative;
+    right: 44px;
+    bottom: 11px;
+    color: #fff;
+    font-size: 21px;
+    font-family: sans-serif;
+}
+
+.container .button .arrow {
+    position: relative;
+    right: 37px;
+    bottom: 11px;
+}
+
+.container .plus {
+    margin-top: 80px;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.container .plus .hp {
+    color: #ffffff;
+    font-size: 45px;
+    margin-left: 13px;
+    
+}
+
+.container .plus span {
+    color: #f637ec;
+    font-weight: 300;
+}
+
+.container .plus .p2 {
+    color: #cecece;
+    font-size: 21px;
+    padding-left: 17px;
+}
+
+.container .plus .line {
+    padding-left: 73px;
+    position: relative;
+    right: 19px;
+}
+
+
+.right-section .img1 {
+    position: absolute;
+    top: 50px;
+    left: 482px;
+
+}
+
+.right-section .img2 {
+    position: absolute;
+    top: 112px;
+    left: 666px;
+}
+
+.label {
+    background-color: #292929;
+    margin-top: 120px;
+    padding: 82px 36px;  
+    text-align: center;  
+}
+
+.label img {  
+    width: 130px;
+   padding-right: 5%;
+}
+
+ .payment {
+    width: 100%;
+    margin-top: 11%;
+    display: flex;
+    padding-left: 78px;
+}
+
+.payment .left label {
+    width: 60%;
+    color: #ffffff;
+    font-size: 82px;
+    font-weight:100;
+    font-family: sans-serif;
+    line-height: 100px;
+}
+
+.payment .left span {
+    color: #f637ec;
+    font-weight: 550;
+}
+
+.payment .right p {
+    width: 70%;
+    margin-top: 63px;
+    color: #b0b0b0;
+    font-family: sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+
+.box {
+    margin-top: 118px;
+    margin-bottom: 13%;
+    padding: 0 75px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box .dollar {
+    margin-top: 25px;
+    padding: 30px 44px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: #272727;
+}
+
+.box .dollar p {
+    margin-top: 30px;
+    font-size: 29px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.box .cloud {
+    position: relative;
+    bottom: 43px;
+    margin-top: 25px;
+    padding: 30px 33px;
+    border: 1px solid white;
+    background-color: #423f3d;
+    text-align: center;
+}
+
+.box .cloud p {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    font-size: 28px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+.box .lock {
+    margin-top: 25px;
+    padding: 30px 48px;
+    border: 1px solid white;
+    background-color: #272727;
+    text-align: center; 
+}
+
+.box .lock p {
+    margin-top: 30px;
+    font-size: 28px;
+    font-family: sans-serif;
+    color: #ffffff;
+}
+
+
+.Choice {
+    background-color:#fceffb;
+     padding-top: 10%;
+     text-align: center;
+}
+
+.Choice .header {
+    padding: 0  16%;
+}
+
+.Choice .header label {
+    font-family: sans-serif;
+    color: #151515;
+    font-size: 75px;
+
+}
+
+.Choice .header p {
+    margin-top: 40px;
+    color: #5d5a5d;
+    font-family: sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.Choice .header span {
+    color: #f637ec;
+    line-height: 125px;
+    font-weight: 600;
+}
+
+.Choice img {
+    position: relative;
+    bottom: 39px;
+}
+
+
+.Review {
+    background-color: #151515;
+    margin-top: 10%;
+}
+
+.Review .text-review {
+    padding: 0 14%;
+    text-align: center;
+}
+
+.Review .text-review label {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 74px;
+    line-height: 100px;
+}
+
+.Review .text-review span {
+    color: #f637ec;
+    font-weight: 700;
+}
+
+.Review .text-review p {
+    margin-top: 5%;
+    color: #b4b4b4;
+    font-family: sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+
+.stars {
+    padding: 0 11%;
+    margin-top: 9%;
+    display: grid;
+    grid-template-columns: 490px 490px;
+    column-gap: 90px;
+    row-gap: 90px;
+}
+
+.stars .America {
+    border: 2px solid white;
+    background-color: #484544;
+    padding: 20px 30px;
+}
+
+.stars .America p {
+    padding-top: 19px;
+    color: #d7d7d7;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.stars .America  label {
+    position: relative;
+    top: 25px;
+    color: #e2e2e2;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.stars .America  span {
+    color: #9a9b9c;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.stars .Indonesia {
+    border: 1px solid white;
+    background-color: #1e1f24;
+    padding: 20px 30px;
+}
+
+.stars .Indonesia p {
+    padding-top: 19px;
+    color: #d9dadb;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.stars .Indonesia label {
+    position: relative;
+    top: 24px;
+    color: #e2e2e2;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.stars .Indonesia span {
+    color: #9a9b9c;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+.stars .French {
+    border: 1px solid white;
+    background-color: #1e1f24;
+    padding: 20px 30px;
+}
+
+.stars .French  p {
+    padding-top: 20px;
+    color: #d9dadb;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.stars .French label {
+    position: relative;
+    top: 24px;
+    color: #e2e2e2;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.stars .French span {
+    color: #9a9b9c;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.stars .Wangon {
+    border: 1px solid white;
+    background-color: #1e1f24;
+    padding: 20px 30px;
+}
+
+.stars .Wangon p {
+    padding-top: 19px;
+    color: #d9dadb;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.stars .Wangon label {
+    position: relative;
+    top: 24px;
+    color: #e2e2e2;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+.stars .Wangon span {
+    color: #9a9b9c;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.circle {
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.circle span {
+    padding: 2px 2px;
+   border: 1px solid white;
+}
+
+.customing {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.customing .top-section {
+    position: relative;
+    top: 115px;
+    z-index: 1;
+}
+
+.customing .card-now {
+    padding: 0 13%;
+}
+
+.customing .card-now label {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 71px;
+    font-weight: 600;
+}
+
+.customing .card-now span {
+    color: #000000;
+    font-weight: 600;
+}
+
+.button-2  {
+    margin-top: 4%;
+}
+
+.button-2 span {
+    position: relative;
+    bottom: 10px;
+    right: 26px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 21px;
+}
+
+.button-2 .pink {
+    position: relative;
+    left: 18px;
+}
+
+.button-2 .arrow-2 {
+    position: relative;
+    bottom: 12px;
+    right: 16px;
+}
+
+.bottom-section {
+    margin-top: -270px;
+}
+
+.background-img .bg-blur {
+    position: relative;
+    bottom: 530px;
+}
+
+.background-img .left-dio {
+    position: relative;
+    bottom: 74px;
+    right: 410px;
+    margin-top: -1000px;
+}
+
+.background-img .right-dio {
+    position: relative;
+    bottom: 281px;
+    left: 440px;
+    margin-top: -240px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 0 9%;
+    position: relative;
+    bottom: 145px; 
+    
+}
+
+.footer nav ul {
+    display: flex;
+    text-align: center;
+    padding-left: 222px;
+    
+}
+
+.footer nav ul li {
+    padding-right: 30px;
+    list-style-type: none;
+    font-family: sans-serif;
+    color: #d8d8d8;
+    font-size: 15px;
+}
